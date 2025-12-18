@@ -1,0 +1,43 @@
+# Python 虚拟环境和缓存
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Node.js 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 前端构建产物
+frontend/dist/
+frontend/.vscode/
+frontend/.env
+frontend/.env.local
+
+# 后端数据文件（这些是重点，不要上传原始数据！）
+backend/data/province_raw/  # 原始CSV数据不上传
+backend/data/processed/*.csv  # 处理后的数据也不上传（如果需要，只留小样例）
+backend/data/derived/*.csv    # 派生数据也不上传
+
+# 大文件：任何大于10MB的文件都不要上传
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
