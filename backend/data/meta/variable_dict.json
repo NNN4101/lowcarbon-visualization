@@ -1,0 +1,16 @@
+{
+  "province": "省份",
+  "year": "年份",
+  "clean_ratio": "清洁能源占比",
+  "green_rate": "建成区绿化覆盖率",
+  "emission_per_gdp": "单位GDP排放",
+  "energy_index": "能源标准化",
+  "eco_index": "绿化标准化",
+  "efficiency_index": "效率标准化(-z)",
+  "synergy_score": "协同指数",
+  "cluster_type": "聚类类型",
+  "Δenergy": "清洁能源年变动",
+  "Δgreen": "绿化率年变动",
+  "Δemission": "排放强度年变动",
+  "predicted_emission_per_gdp": "模型预测值"
+}

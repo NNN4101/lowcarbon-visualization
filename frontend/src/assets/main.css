@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary-gradient-from: #14b8a6;
+  --primary-gradient-to: #06b6d4;
+  --primary-accent: #0e998d;
+  --sidebar-bg: #1fc6b6;
+  --content-bg: #f0fdfa;
+  --primary-bg: #ecfdf5;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  background-color: var(--primary-bg);
+  font-family: "Inter", "Microsoft YaHei", sans-serif;
+  color: #1e293b;
+}
